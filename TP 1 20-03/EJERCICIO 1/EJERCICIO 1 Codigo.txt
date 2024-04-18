@@ -1,0 +1,16 @@
+EJERCICIO 1:
+
+
+#define ROJO 13
+void setup()
+{
+  pinMode(ROJO, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(ROJO, HIGH);
+  delay(1000); 
+  digitalWrite(ROJO, LOW);
+  delay(1000); 
+}
