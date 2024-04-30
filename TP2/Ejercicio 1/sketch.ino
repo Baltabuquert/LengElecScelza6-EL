@@ -1,3 +1,6 @@
+// Corrección Alan 30/04/2024: Bien
+// Faltaría doble validación del botón para evitar efecto mecánico. 
+
 int  a = 13;
 int  b = 12;
 int  c = 11;
