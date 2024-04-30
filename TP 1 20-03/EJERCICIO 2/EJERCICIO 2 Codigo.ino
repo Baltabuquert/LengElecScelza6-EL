@@ -1,5 +1,5 @@
-EJERCICIO 2
-
+// Corrección Alan 30/04/2024: Bien
+// Sería conveniente agregar un #define tiempo 2000
 
 #define ROJO 13
 #define VERDE 12
