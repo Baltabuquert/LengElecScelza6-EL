@@ -1,4 +1,5 @@
-EJERCICIO 4
+// Corrección Alan 30/04/2024: Bien
+// sería bueno tener defines para los tiempos.
 
 
 #define ROJO 13
