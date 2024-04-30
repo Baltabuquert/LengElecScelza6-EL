@@ -1,3 +1,7 @@
+// Corrección Alan 30/04/2024: Mal. No es para nada eficiente evaluar cada número uno por uno. Si les agrego un display más deberían contemplar las 999 posibilades??? 
+
+// Sería conveniente usar una variable "unidades" para el display 1, y una variable "decenas" para el display 2. Van sumando uno a unidades y cuando llega a 10 -> unidades = 0 y decenas = decenas + 1
+
 int  a =13;
 int  b =12;
 int  c =11;
