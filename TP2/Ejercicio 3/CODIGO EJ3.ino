@@ -1,4 +1,5 @@
-EJERCICIO TM1637
+// Corrección Alan 30/04/2024: Bien
+
 #include <TM1637Display.h>
 
 #define Sumar 3
