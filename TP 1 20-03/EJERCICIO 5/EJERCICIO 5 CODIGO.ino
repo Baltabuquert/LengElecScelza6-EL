@@ -1,3 +1,5 @@
+// Corrección Alan 30/04/2024: Mal. No cumple la consigna. Lo vimos en clase, debería simular la suma en binario, todos los leds deben parpadear a la vez a su ritmo.
+
 #define led1 13
 #define led2 12
 #define led3 10
