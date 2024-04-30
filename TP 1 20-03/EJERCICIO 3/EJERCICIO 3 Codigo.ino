@@ -1,4 +1,6 @@
-EJERCICIO 3
+// Corrección Alan 30/04/2024: Bien
+// Defnieieron boton pero no lo usaron en el loop
+// falta doble if en el botón para evitar efecto mecánico, ver material de Xhendra. 
 
 #define ROJO 10 
 #define VERDE 9 
