@@ -20,9 +20,6 @@ orden = 0
 prom = 0
 i = 0
 
-
-
-
 # Leer el archivo
 with open('arbolado-en-espacios-verdes.csv', newline='') as csvfile:
 	spamreader = csv.reader(csvfile, delimiter=',')
@@ -33,13 +30,11 @@ with open('arbolado-en-espacios-verdes.csv', newline='') as csvfile:
 		diametro = row [4]
 
 		if tipo_arbol in tipos_arboles: 
-			
 			# Ya lo tengo, le sumo uno
 			tipos_arboles[tipo_arbol] += 1
 			diam[tipo_arbol] += int(diametro)
 
 		else: 
-
 			# Es el primer arbol que leo
 			tipos_arboles[tipo_arbol] = 1
 			
@@ -61,8 +56,6 @@ ordenados = {k: v for k, v in sorted(numero_arbol.items(), key=lambda item: item
 #imprimo y realizo pruebas
 for arbol in ordenados:
 	print (f'{ordenados[arbol]} | {arbol}')
-
-
 
 # Agrego el input
 a = None
